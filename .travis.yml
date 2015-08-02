@@ -2,7 +2,7 @@ language: cpp
 compiler:
   -gcc
   -clang
-script: g++ gone .cpp
+script: g++ gone.cpp
 notifications:
   email:
     recipients: emailbarung@gmail.com
