@@ -1,6 +1,6 @@
 language: cpp
 compiler:
-  -gcc
+  -g++
   -clang
 script: make && make test
 notifications:
