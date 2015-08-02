@@ -1,0 +1,10 @@
+language: cpp
+compiler:
+  -gcc
+  -clang
+script: make && make test
+notifications:
+  email:
+    recipients: emailbarung@gmail.com
+    on_sucess: change
+    on_failure: always
